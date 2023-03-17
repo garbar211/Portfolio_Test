@@ -45,25 +45,6 @@ function App() {
       </div>
     </Router>
   );
-
-
-
-import { Analytics } from '@vercel/analytics/react';
- 
-function MyApp({ Component, pageProps }) {
-  return (
-    <>
-      <Component {...pageProps} />
-      <Analytics />
-    </>
-  );
 }
- 
-export default MyApp;
-
-  
-}
-
-
-
+// Should of fixed...
 export default App;
