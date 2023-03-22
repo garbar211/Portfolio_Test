@@ -28,9 +28,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Quote here.."{" "}
+            "Everyone in this country should learn how to program because it teaches you how to think"{" "}
           </p>
-          <footer className="blockquote-footer">I don't know yet-</footer>
+          <footer className="blockquote-footer">Steve Jobs</footer>
         </blockquote>
       </Card.Body>
     </Card>

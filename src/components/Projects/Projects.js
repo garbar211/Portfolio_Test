@@ -36,9 +36,11 @@ function Projects() {
               imgPath={calm}
               isBlog={false}
               title="CalmDown"
+                            buttonname = "API here!"
+
               description="Using Googles API, we can check, scan, and flag messages that fit certain catagorys. Like: Toxic, Flirty, Scam, and more!"
               ghLink=""
-              demoLink=""
+              demoLink="https://perspectiveapi.com/"
             />
           </Col>
         </Row>
