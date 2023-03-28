@@ -15,6 +15,8 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import { AiFillIdcard } from "react-icons/ai";
+
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -94,10 +96,10 @@ function NavBar() {
   <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/mylife"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> My life
+                <AiFillIdcard style={{ marginBottom: "2px" }} /> My life
               </Nav.Link>
             </Nav.Item>
             
