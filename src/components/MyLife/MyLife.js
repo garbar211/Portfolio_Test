@@ -21,7 +21,7 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                ""
+                
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
