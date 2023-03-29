@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://portfolio-garbar211.vercel.app/static/media/Garret%20Hashbarger%20-%20Resume%20(1).c7ccb75d78c5dd744107.pdf";
+  "https://portfolio-garbar211.vercel.app/static/media/Garret%20Hashbarger%20-%20Resume%20(1).3e74ac66ea1b4e3fa889.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
