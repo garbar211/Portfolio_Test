@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/Software Developer Business Cards-1680198828.mp4";
+import homeLogo from "../../Assets/Screenshot 2023-03-30 2.17.00 PM.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -30,15 +30,14 @@ function Home() {
               </div>
             </Col>
 
-           <Col md={5} style={{ paddingBottom: 20 }}> 
-              <video
-                controls
-                src={homeLogo} 
-                alt="home pic" 
-                className="img-fluid" 
-                style={{ maxHeight: "450px" }} 
-              /> 
-            </Col> 
+            <Col md={5} style={{ paddingBottom: 20 }}>
+              <img
+                src={homeLogo}
+                alt="home pic"
+                className="img-fluid"
+                style={{ maxHeight: "450px" }}
+              />
+            </Col>
           </Row>
         </Container>
       </Container>
