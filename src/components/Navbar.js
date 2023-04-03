@@ -16,7 +16,7 @@ import {
 
 import { CgFileDocument } from "react-icons/cg";
 import { AiFillIdcard } from "react-icons/ai";
-import { GrContact } from "react-icons/ai";
+import { BiMessageSquareDetail } from "react-icons/bi";
 
 
 function NavBar() {
@@ -110,7 +110,7 @@ function NavBar() {
                 to="https://www.linkedin.com/in/garret-hashbarger/overlay/contact-info/"
                 onClick={() => updateExpanded(false)}
               >
-                <GrContact
+                <BiMessageSquareDetail
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Contact me!
