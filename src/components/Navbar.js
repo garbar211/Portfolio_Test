@@ -111,6 +111,7 @@ function NavBar() {
                 className="fork-btn-inner"
               >
                 <BiMessageSquareDetail style={{ fontSize: "1.2em" }} />{" "}
+                Contact
               </Button>
             </Nav.Item>
             
