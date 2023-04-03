@@ -12,7 +12,7 @@ function Type() {
         autoStart: true,
         loop: true,
         deleteSpeed: 50,
-        escapeHtml: true, // set escapeHtml to true
+        escapeHtml: false, // set escapeHtml to true
       }}
     />
   );
