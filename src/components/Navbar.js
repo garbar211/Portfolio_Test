@@ -104,17 +104,14 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
- <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="https://www.linkedin.com/in/garret-hashbarger/overlay/contact-info/"
-                onClick={() => updateExpanded(false)}
+   <Nav.Item className="fork-btn">
+              <Button
+                href="https://www.linkedin.com/in/garret-hashbarger/overlay/contact-info/"
+                target="_blank"
+                className="fork-btn-inner"
               >
-                <BiMessageSquareDetail
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Contact me!
-              </Nav.Link>
+                <BiMessageSquareDetail style={{ fontSize: "1.2em" }} />{" "}
+              </Button>
             </Nav.Item>
             
           </Nav>
