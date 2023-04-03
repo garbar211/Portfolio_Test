@@ -6,15 +6,13 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-        
-          "Wow! He is really cool! <a href='https://www.google.com' style='color: blue; font-weight: bold;'>- Mack</a>",
-                    "Wow! He is really REALLY COOL! -<a href='https://www.google.com' style='color: blue; font-weight: bold;'> Bob</a>",
-
+          "Wow! He is really cool! -<a href='https://www.google.com' style='color: blue; font-weight: bold;'> Mack</a>",
+          "Wow! He is really REALLY COOL! -<a href='https://www.google.com' style='color: blue; font-weight: bold;'> Bob</a>",
         ],
         autoStart: true,
         loop: true,
         deleteSpeed: 50,
-        escapeHtml: false,
+        escapeHtml: true, // set escapeHtml to true
       }}
     />
   );
