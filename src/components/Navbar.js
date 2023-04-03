@@ -16,6 +16,7 @@ import {
 
 import { CgFileDocument } from "react-icons/cg";
 import { AiFillIdcard } from "react-icons/ai";
+import { GrContact } from "react-icons/ai";
 
 
 function NavBar() {
@@ -102,9 +103,22 @@ function NavBar() {
                 <AiFillIdcard style={{ marginBottom: "2px" }} /> My life
               </Nav.Link>
             </Nav.Item>
+
+ <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="https://www.linkedin.com/in/garret-hashbarger/overlay/contact-info/"
+                onClick={() => updateExpanded(false)}
+              >
+                <GrContact
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Contact me!
+              </Nav.Link>
+            </Nav.Item>
             
-         
           </Nav>
+          
         </Navbar.Collapse>
       </Container>
     </Navbar>
