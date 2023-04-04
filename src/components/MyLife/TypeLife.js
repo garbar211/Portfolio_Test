@@ -3,31 +3,20 @@ import Typewriter from "typewriter-effect";
 
 function Type() {
   return (
-    <Typewriter
-      options={{
-        strings: [
-          "Wow! He is really cool! -<a href='https://www.google.com' style='color: blue; font-weight: bold;'> Mack</a>",
-          "Wow! He is really REALLY COOL! -<a href='https://www.google.com' style='color: blue; font-weight: bold;'> <a href='https://www.google.com' style='color: blue; font-weight: bold;'>Bob</a></a>",
-        ],
-        autoStart: true,
-        loop: true,
-        deleteSpeed: 50,
-        escapeHtml: false, // set escapeHtml to true
-      }}
-      onInit={(typewriter) => {
-        typewriter
-          .pauseFor(2000)
-          .callFunction(() => {
-            const links = document.querySelectorAll("a");
-            links.forEach((link) => {
-              link.addEventListener("click", () => {
-                window.open(link.href, "_blank");
-              });
-            });
-          })
-          .start();
-      }}
-    />
+    <div style={{ display: "flex", alignItems: "center" }}>
+      <Typewriter
+        options={{
+          strings: ["That guy is COOL"],
+          autoStart: true,
+          loop: true,
+          deleteSpeed: 50,
+        }}
+      />
+      <div style={{ marginLeft: "20px" }}>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR_xVyQmNWWJYOWyuZclW4-HpZQD1NHHIqoWx9SW0GBr26cIZ95kjVC0T1H5FMVnu_nR0:https://cdn-icons-png.flaticon.com/512/2815/2815428.png&usqp=CAU" alt="Image" width="100" height="100" />
+        <p style={{ fontWeight: "bold" }}>John Doe</p>
+      </div>
+    </div>
   );
 }
 
