@@ -1,22 +1,22 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import homeLogo from "../../Assets/Screenshot 2023-03-30 2.17.00 PM.png";
 
 function Type() {
   return (
-    <div style={{ display: "flex", alignItems: "center" }}>
-      <Typewriter
-        options={{
-          strings: ["That guy is COOL"],
-          autoStart: true,
-          loop: true,
-          deleteSpeed: 50,
-        }}
-      />
-      <div style={{ marginLeft: "20px" }}>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR_xVyQmNWWJYOWyuZclW4-HpZQD1NHHIqoWx9SW0GBr26cIZ95kjVC0T1H5FMVnu_nR0:https://cdn-icons-png.flaticon.com/512/2815/2815428.png&usqp=CAU" alt="Image" width="100" height="100" />
-        <p style={{ fontWeight: "bold" }}>John Doe</p>
-      </div>
-    </div>
+    <Typewriter
+      options={{
+        strings: [
+          '<img src=homeLogo alt="Test 1"/><br/><b style="text-align:center;">John Doe</b>',
+          '<img src=homeLogo alt="Test 2"/><br/><b style="text-align:center;">Jane Doe</b>',
+          '<img src=homeLogo alt="Test 3"/><br/><b style="text-align:center;">James Smith</b>'
+        ],
+        autoStart: true,
+        loop: true,
+        deleteSpeed: 50,
+        escapeHtml: false
+      }}
+    />
   );
 }
 
