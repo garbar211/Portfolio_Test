@@ -7,9 +7,9 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          '<img src=homeLogo alt="Test 1"/><br/><b style="text-align:center;">John Doe</b>',
-          '<img src=homeLogo alt="Test 2"/><br/><b style="text-align:center;">Jane Doe</b>',
-          '<img src=homeLogo alt="Test 3"/><br/><b style="text-align:center;">James Smith</b>'
+          `<img src="${homeLogo}" alt="Wow he is really cool"/><br/><b style="text-align:center;">John Doe</b>`,
+          `<img src="${homeLogo}" alt="Wow he is TOO cool"/><br/><b style="text-align:center;">Jane Doe</b>`,
+          `<img src="${homeLogo}" alt="Yeah idk what to put here-"/><br/><b style="text-align:center;">James Smith</b>`
         ],
         autoStart: true,
         loop: true,
