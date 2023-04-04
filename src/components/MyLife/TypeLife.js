@@ -1,6 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import homeLogo from "../../Assets/Screenshot 2023-03-30 2.17.00 PM.png";
+import homeLogo from "../../Assets/TheImage.png";
 
 function Type() {
   return (
