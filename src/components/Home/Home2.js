@@ -19,7 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I've been into prgoramming at a very young age, from block code to text, I've done it all.
+I've been into programming at a very young age, from block code to text, I've done it all.
               <br />
               <br />I am fluent in classics like
               <i>
@@ -27,12 +27,12 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest is building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                  Deep Learning and AI.
                 </b>
               </i>
               <br />

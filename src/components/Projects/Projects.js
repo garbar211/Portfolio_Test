@@ -25,7 +25,7 @@ function Projects() {
               isBlog={false}
               title="EagleWatch Surveillance"
               buttonname = "Presintation"
-              description="Weapon Detection using AI, for schools, buildings, and othr locations. Detecting threats and sending alerts within seconds!"
+              description="Weapon Detection using AI, for schools, buildings, and other locations. Detecting threats and sending alerts within seconds!"
               ghLink=""
     demoLink="https://docs.google.com/presentation/d/1ZcAiHDQe0T2eZ2LliJ1tqlSUVj1wAtiMtwVAxtaL5fc/edit"
             />
@@ -38,7 +38,7 @@ function Projects() {
               title="CalmDown"
                             buttonname = "API here!"
 
-              description="Using Googles API, we can check, scan, and flag messages that fit certain catagorys. Like: Toxic, Flirty, Scam, and more!"
+              description="Using Google API, we can check, scan, and flag messages that fit certain categories. Like: Toxic, Flirty, Scam, and more!"
               ghLink=""
               demoLink="https://perspectiveapi.com/"
             />
