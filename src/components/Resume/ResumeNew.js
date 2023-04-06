@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://portfolio-garbar211.vercel.app/static/media/MyRes.pdf";
+  "https://portfolio-garbar211.vercel.app/static/media/MyRes.29c3211f62fd9e6ba03b.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
