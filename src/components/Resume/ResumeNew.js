@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Garret Hashbarger - Resume (1).pdf";
+import pdf from "../../Assets/../Assets/MyRes.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://portfolio-garbar211.vercel.app/static/media/Garret%20Hashbarger%20-%20Resume%20(1).3e74ac66ea1b4e3fa889.pdf";
+  "https://portfolio-garbar211.vercel.app/static/media/MyRes.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
