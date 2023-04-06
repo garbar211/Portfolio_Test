@@ -34,7 +34,7 @@ function App() {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <Analytics id="YOUR_ANALYTICS_ID">
+        <Analytics id={process.env.VERCEL_ANALYTICS_ID}>
           <Navbar />
           <ScrollToTop />
           <Routes>
