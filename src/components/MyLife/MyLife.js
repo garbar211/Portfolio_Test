@@ -35,6 +35,9 @@ function Home() {
                 
                 <strong className="main-name"> "</strong>
               </h1>
+                Full list of references and contact information
+                <a href="https://docs.google.com/document/d/1azhigtYxlp65sgWeum7T7znGW60ithsQF6OnXu_CTaI/edit?usp=sharing"> HERE</a>!
+
               </div>
             </Col>
 
