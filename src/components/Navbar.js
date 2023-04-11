@@ -17,7 +17,7 @@ import {
 import { CgFileDocument } from "react-icons/cg";
 import { AiFillIdcard } from "react-icons/ai";
 import { BiMessageSquareDetail } from "react-icons/bi";
-import { BsPersonFillCheck } from "react-icons/bs";
+import { BsPersonLinesFill } from "react-icons/bs";
 
 
 function NavBar() {
@@ -117,17 +117,16 @@ function NavBar() {
             </Nav.Item>
 
 
- <Nav.Item className="fork-btn">
+            <Nav.Item className="fork-btn">
               <Button
                 href="https://docs.google.com/document/d/1azhigtYxlp65sgWeum7T7znGW60ithsQF6OnXu_CTaI/edit?usp=sharing"
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <BsPersonFillCheck style={{ fontSize: "1.2em" }} />{" "}
+                <BiMessageSquareDetail style={{ fontSize: "1.2em" }} />{" "}
                 Refernces(Ext.)
               </Button>
             </Nav.Item>
-
             
           </Nav>
 
