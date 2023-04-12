@@ -14,7 +14,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3><a>https://github.com/garbar211/Portfolio_Test/graphs/commit-activity</a>Track commits</h3>
+          <h3>Not FInished </h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year}</h3>
