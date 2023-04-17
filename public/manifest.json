@@ -8,6 +8,21 @@
       "type": "image/x-icon"
     }
   ],
+
+
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "x-robots-tag",
+          "value": "index, follow"
+        }
+      ]
+    }
+  ]
+
+
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
