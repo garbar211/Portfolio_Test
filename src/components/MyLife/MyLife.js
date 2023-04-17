@@ -35,7 +35,7 @@ function Home() {
                 
                 <strong className="main-name"> "</strong>
               </h1>
-              <iframe src="https://docs.google.com/document/d/e/2PACX-1vQRR2jdDe5GFOHjgzJa83XmhK5RLxWIWmCgQy0VvTOPjrz5gKk42iqXI3F-eW7AJoOviS8ra4g0lHph/pub?embedded=true"></iframe>
+          
 
               </div>
             </Col>
@@ -44,6 +44,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
+          <iframe src="https://docs.google.com/document/d/e/2PACX-1vQRR2jdDe5GFOHjgzJa83XmhK5RLxWIWmCgQy0VvTOPjrz5gKk42iqXI3F-eW7AJoOviS8ra4g0lHph/pub?embedded=true"></iframe>
       <Home2 />
     </section>
   );
