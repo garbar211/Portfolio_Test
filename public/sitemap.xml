@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!--  created with sitemap generator https://octopus.do  -->
+
+    <url>
+        <loc>https://portfolio-garbar211.vercel.app/</loc>
+        <lastmod>2023-04-18</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://portfolio-garbar211.vercel.app//home</loc>
+        <lastmod>2023-04-18</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://portfolio-garbar211.vercel.app//about</loc>
+        <lastmod>2023-04-18</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://portfolio-garbar211.vercel.app//projects</loc>
+        <lastmod>2023-04-18</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://portfolio-garbar211.vercel.app//resume</loc>
+        <lastmod>2023-04-18</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://portfolio-garbar211.vercel.app//my-life</loc>
+        <lastmod>2023-04-18</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>
