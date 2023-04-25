@@ -13,8 +13,11 @@ function Type() {
         ],
         autoStart: true,
         loop: true,
+        delay: 200,
+        pauseFor: 2000,
         deleteSpeed: 50,
         escapeHtml: false
+        
       }}
     />
   );
