@@ -35,7 +35,7 @@ function Home() {
                 
                 <strong className="main-name"> "</strong>
               </h1>
-          
+          Please click the `Refrences Ext.` button for more information!
 
               </div>
             </Col>
