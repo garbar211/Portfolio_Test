@@ -45,6 +45,11 @@ function About() {
         </h1>
         <Toolstack />
 
+         <h1 className="project-heading">
+          <strong className="purple">Certifications</strong> I have!
+        </h1>
+        <Certstack />
+
         <Github />
       </Container>
     </Container>
