@@ -38,12 +38,14 @@ function Home() {
        
 
               </div>
-                <b> Please click the `Refrences Ext.` button for more information! </b> 
+                 
             </Col>
 
             
           </Row>
+          <b> 1 Please click the `Refrences Ext.` button for more information! </b>
         </Container>
+        <b> 2 Please click the `Refrences Ext.` button for more information! </b>
       </Container>
 
 
