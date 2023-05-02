@@ -23,7 +23,7 @@ function Projects() {
             <ProjectCard
               imgPath={eagle}
               isBlog={false}
-              title="EagleWatch Surveillance"
+              title="EagleWatch Surveillance - coming 2024"
               buttonname = "Presintation"
               description="Weapon Detection using AI, for schools, buildings, and other locations. Detecting threats and sending alerts within seconds!"
               ghLink=""
@@ -38,7 +38,7 @@ function Projects() {
               title="CalmDown"
                             buttonname = "API here!"
 
-              description="Using Google API, we can check, scan, and flag messages that fit certain categories. Like: Toxic, Flirty, Scam, and more!"
+              description="Using Google API, we can check, scan, and flag messages that fit certain categories. Like: Toxic, Flirty, Scam, and more! NOTE: This is the service I USE, the API is public for others, hosted by google."
               ghLink=""
               demoLink="https://perspectiveapi.com/"
             />
