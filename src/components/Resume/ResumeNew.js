@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/MyRes.pdf";
+import pdf from "../../Assets/../Assets/ResFIn.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://portfolio-garbar211.vercel.app/static/media/MyRes.29c3211f62fd9e6ba03b.pdf";
+  "https://portfolio-garbar211.vercel.app/static/media/ResFin.29c3211f62fd9e6ba03b.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);

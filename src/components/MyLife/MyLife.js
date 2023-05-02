@@ -34,10 +34,11 @@ function Home() {
                    <h1 className="heading-name">
                 
                 <strong className="main-name"> "</strong>
-              </h1>
-         <b> Please click the `Refrences Ext.` button for more information! </b> 
+       
 
               </div>
+                       </h1>
+         <b> Please click the `Refrences Ext.` button for more information! </b> 
             </Col>
 
             
