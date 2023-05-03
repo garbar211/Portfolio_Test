@@ -23,7 +23,7 @@ function Toolstack() {
        </Col>
        <Col xs={4} md={2} className="tech-icons">
 <img src="https://media.licdn.com/dms/image/C4E0BAQHAzidYsIKzTw/company-logo_100_100/0/1572356795552?e=1691020800&v=beta&t=nlVklyB0A_ImXtqq-j0hUmiiLSnwzGG1lbwyn1Z37CE" />   
-       <h5>FOUNDATIONS IN PERSONAL FINANCE </h5>
+       <h5>FOUNDATIONS IN PERSONAL FINANCE - Ramsey solutions</h5>
        </Col>
     </Row>
   );
