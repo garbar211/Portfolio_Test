@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import chatify from "../../Assets/Projects/chatify.png";
 import eagle from "../../Assets/Projects/eagle.png";
 import calm from "../../Assets/Projects/PortOne.png";
+import sheet from "../../Assets/Projects/sheets.png";
 
 
 function Projects() {
@@ -45,7 +46,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={calm}
+              imgPath={sheet}
               isBlog={false}
               title="Monthly budget"
                             buttonname = "Copy the template HERE"
