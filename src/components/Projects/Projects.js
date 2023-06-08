@@ -43,6 +43,18 @@ function Projects() {
               demoLink="https://perspectiveapi.com/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={calm}
+              isBlog={false}
+              title="Monthly budget"
+                            buttonname = "Copy the template HERE"
+
+              description="Using Google Sheets and a little bit of scripting, this project allows anyone to make a zero based budget. This comes with multiple automations, like showing how much you need to spend or gain."
+              ghLink=""
+              demoLink="https://docs.google.com/spreadsheets/d/1kuR_OrrvWqsr-hTS2oBGCez4y2dgKVuHhe2NJmzQokA/edit?usp=sharing"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
