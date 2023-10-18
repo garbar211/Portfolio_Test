@@ -25,6 +25,12 @@ function Toolstack() {
 <img src="https://media.licdn.com/dms/image/C4E0BAQHAzidYsIKzTw/company-logo_100_100/0/1572356795552?e=1691020800&v=beta&t=nlVklyB0A_ImXtqq-j0hUmiiLSnwzGG1lbwyn1Z37CE" />   
        <h5>FOUNDATIONS IN PERSONAL FINANCE - Ramsey solutions</h5>
        </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+      <img src="https://s3-eu-west-1.amazonaws.com/tpd/logos/5b18c716811b42000158716c/0x0.png" />   
+             <h5>ucertify - Azure Fundamentals (AZ-900)</h5>
+             </Col>
+      
     </Row>
   );
 }
