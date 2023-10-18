@@ -27,7 +27,7 @@ function Toolstack() {
        </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-      <img src="https://s3-eu-west-1.amazonaws.com/tpd/logos/5b18c716811b42000158716c/0x0.png" />   
+      <img src="https://media.licdn.com/dms/image/C510BAQE2dIjON9AHnQ/company-logo_100_100/0/1519874610282?e=1705536000&v=beta&t=MvgEmeMsW223BATrLuHwgQCrHjF_9mMA7IUr4wBp5aE" />   
              <h5>ucertify - Azure Fundamentals (AZ-900)</h5>
              </Col>
       
