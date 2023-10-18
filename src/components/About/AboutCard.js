@@ -9,8 +9,8 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple"> Garret </span>
-            from <span className="purple"> Putnam County, OH.</span>
-            <br />I am a Senior in High School, going to college for Web/Computer Programming
+            from <span className="purple">OH.</span>
+            <br />I am a freshmen in college for Web/Computer Programming
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
