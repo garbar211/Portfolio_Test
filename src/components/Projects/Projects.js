@@ -60,7 +60,7 @@ function Projects() {
 
            <Col md={4} className="project-card">
                     <ProjectCard
-                      imgPath={calm}
+                      imgPath={logo}
                       isBlog={false}
                       title="YouTube Video Embed Converter"
                                     buttonname = "Try here!"
