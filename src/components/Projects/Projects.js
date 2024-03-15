@@ -26,7 +26,7 @@ function Projects() {
               imgPath={eagle}
               isBlog={false}
               title="EagleWatch Surveillance - coming 2025"
-              buttonname = "Presintation"
+              buttonname = "Presentation"
               description="Weapon Detection using AI, for schools, buildings, and other locations. Detecting threats and sending alerts within seconds!"
               ghLink=""
     demoLink="https://docs.google.com/presentation/d/1ZcAiHDQe0T2eZ2LliJ1tqlSUVj1wAtiMtwVAxtaL5fc/edit"
